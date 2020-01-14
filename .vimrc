@@ -136,6 +136,9 @@ autocmd FileType css set iskeyword+=-
 " Pug syntax
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 
+" Pug vue
+Plug 'posva/vim-vue', {'for': 'vue'}
+
 " End
 call plug#end()
 
