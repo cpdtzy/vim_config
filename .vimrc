@@ -65,7 +65,7 @@ let g:tagbar_right= 1
 nmap <F3> :TagbarToggle<CR>
 
 " Emmet default shortcuts C-Y,
-Plug 'mattn/emmet-vim', { 'for': ['css', 'php', 'html', 'vue', 'js'] }
+Plug 'mattn/emmet-vim', { 'for': ['css', 'php', 'html', 'vue', 'js', 'ts'] }
 let g:user_emmet_mode='in'
 
 "YCM = YouCompleteMe
@@ -121,6 +121,7 @@ let g:ale_lint_on_insert_leave = 0
 " Add syntax
 " Javascript syntax
 Plug 'pangloss/vim-javascript', { 'for': 'Javascript' }
+Plug 'mxw/vim-jsx', { 'for': 'Javascript' }
 augroup filetype javascript syntax=javascript
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
