@@ -65,7 +65,7 @@ let g:tagbar_right= 1
 nmap <F3> :TagbarToggle<CR>
 
 " Emmet default shortcuts C-Y,
-Plug 'mattn/emmet-vim', { 'for': ['css', 'php', 'html', 'vue', 'js', 'ts'] }
+Plug 'mattn/emmet-vim'
 let g:user_emmet_mode='in'
 
 "YCM = YouCompleteMe
